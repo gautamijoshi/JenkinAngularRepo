@@ -1,0 +1,17 @@
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let emp of employee">
+            <td>{{emp.Id}}</td>
+            <td>{{emp.Name}}</td>
+            <td>{{emp.Address}}</td>
+        </tr>
+    </tbody>
+</table>
